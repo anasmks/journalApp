@@ -56,6 +56,7 @@ weather_api_key: YOUR_API_KEY
 ---
 
 ▶️ Run the App
+
 Prerequisites:
 Java 8+
 
