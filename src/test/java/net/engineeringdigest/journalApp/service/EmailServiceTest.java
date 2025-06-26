@@ -15,7 +15,8 @@ public class EmailServiceTest {
     @Disabled
     @Test
     public void testSendMail(){
-        emailService.sendEmail("anashaddaad@gmail.com",
+
+        emailService.sendEmail("aaaaaaaaaaa@gmail.com",
                 "Test Email",
                 "Hi, my name Angel Cruzer from NVIDIA!!");
     }
