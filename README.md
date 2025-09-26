@@ -8,9 +8,8 @@ Designed with modular architecture and best practices for clean and scalable dev
 ## 🚀 Features
 
 - ✍️ **Journal Entry Management** — Create, read, update, and delete journal entries for the user and stored in MongoDB.
-- 📧 **Email Notification System** — Uses Gmail SMTP to send reminders or alerts.
+- 📧 **Email Notification System** — Uses Gmail SMTP.
 - 🌤️ **Weather API Integration** — Enrich journal entries with live weather data.
-- ⚙️ **Task Scheduling** — Periodic tasks with Spring Scheduler (e.g., daily email reminders).
 - ⚡ **Redis Caching** — Boosts performance with in-memory caching.
 - 🔐 **Modular Architecture** — Clean separation of controller, service, repository, config, and utility layers.
 
