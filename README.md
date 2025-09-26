@@ -7,6 +7,10 @@ Designed with modular architecture and best practices for clean and scalable dev
 
 ## 🚀 Features
 
+- 🔐 **User Authentication & Authorization**
+  - Secure login and registration using **Spring Security**.
+  - **JWT (JSON Web Tokens)** for stateless authentication.
+  - Role-based access control for protected endpoints.
 - ✍️ **Journal Entry Management** — Create, read, update, and delete journal entries for the user and stored in MongoDB.
 - 📧 **Email Notification System** — Uses Gmail SMTP.
 - 🌤️ **Weather API Integration** — Enrich journal entries with live weather data.
@@ -19,6 +23,7 @@ Designed with modular architecture and best practices for clean and scalable dev
 
 - **Backend**: Java, Spring Boot
 - **Database**: MongoDB (Cloud)
+- **Authentication**: Spring Security + JWT  
 - **Cache**: Redis
 - **Email**: Gmail SMTP
 - **API Integration**: Weather API
@@ -54,15 +59,13 @@ weather_api_key: YOUR_API_KEY
 
 ---
 
+
 ▶️ Run the App
 
 Prerequisites:
-Java 8+
 
-MongoDB Atlas account
-
-Redis server
-
-Gmail App Password
-
-Weather API Key (e.g., OpenWeather)
+- Java 8+
+- MongoDB Atlas account
+- Redis server
+- Gmail App Password
+- Weather API Key (e.g., OpenWeather)
