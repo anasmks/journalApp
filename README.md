@@ -1,6 +1,6 @@
 # 📝 Journal Application
 
-A full-featured **Spring Boot** application for managing journal entries with **JWT-based authentication**, email notifications, Redis caching, and external API integration.
+A full-featured **Spring Boot** application for managing journal entries with **JWT-based authentication**, email integration, Redis caching, and external API integration.
 Designed with modular architecture and best practices for clean and scalable development.
 
 ---
